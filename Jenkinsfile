@@ -12,7 +12,7 @@ pipeline {
     DEPLOY_ACCOUNT = "{IAM competent User}" // IAM에서 생성한 유저명
     DEPLOY_ROLE = "{IAM competent role arn}" // IAM에서 생성한 역할의 arn id
     CLUSTER_NAME = '{ECS Cluster Name}' // ECS 클러스터 이름
-    SERVICE_NAME = '{ECS Service Name' // 클러스터내 서비스 이름
+    SERVICE_NAME = '{ECS Service Name}' // 클러스터내 서비스 이름
     BRANCH = 'main' // 깃허브 브런치
     GIT_URL = 'https://github.com/gitryk/sample.cicd.git' // 깃허브 레포지토리 주소
   }
